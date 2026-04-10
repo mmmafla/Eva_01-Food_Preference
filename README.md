@@ -1,24 +1,27 @@
-Este evaluación consiste en el análisis, limpieza, transformación y preprocesamiento de un dataset utilizando Python en un entorno de notebook (Google Colab).
+# Preferencia de comidas.
 
-El objetivo principal es preparar los datos de manera adecuada para su posterior uso en su debido momento, aplicando buenas prácticas en el manejo de datos.
+Este proyecto tiene como objetivo desarrollar un Script de codigos con la finalidad de realizar un análisis a un conjunto de datos. Los Script presentes se encuentran divididos por pasos enumerados. Cada paso tiene su respectiva secuencia y una breve explicación del porque se hizo.
 
-> Estructura del Proyecto <
+---
 
-El notebook desarrollado sigue la siguiente estructura:
+## Tecnologías utilizadas:
 
-1.- Carga y Exploración Inicial.
-2.- Manipulación de Datos.
-3.- Limpieza de Datos.
-4.- Transformación de Datos.
-5.- Exportación.
+- Python 3
+- Google Colab (Entorno de desarrollo)
+- Pandas / Numpy / matplotlib.pyplot / seaborn / Scikit-learn
+- Git / GitHub
 
-Tecnologías Utilizadas.
-.- Python
-.- Pandas
-.- NumPy
-.- Matplotlib / Seaborn
-.- Scikit-learn
+---
 
-Este proyecto demuestra el flujo completo de preparación de datos, desde la exploración inicial hasta la generación de un dataset limpio y transformado.
+##  Estructura del repositorio
 
-Se aplican técnicas fundamentales de análisis de datos y preprocesamiento, asegurando la calidad y consistencia de la información para futuras etapas analíticas.
+```text
+Eva_01-Food_Preference/
+├── data/
+│   ├── processed/
+│       └── Food_Preference_final.csv
+│   └── raw/
+│       └── Food_Preference.csv
+├── notebooks/
+│   └── Notebook_Food_Preference.ipynb
+└── README.md
